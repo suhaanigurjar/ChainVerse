@@ -55,3 +55,17 @@ let blockchain = new Blockchain();
 blockchain.createTransaction({ sender: "Alice", receiver: "Bob", amount: 50 });
 blockchain.minePendingTransactions();
 console.log(JSON.stringify(blockchain, null, 4));
+
+
+//updates 1
+// Existing code - Blockchain is already initialized and the first block has been mined.
+
+// Create a new transaction
+blockchain.createTransaction({ sender: "Bob", receiver: "Charlie", amount: 30 });
+
+// Mine the new transactions
+blockchain.minePendingTransactions();
+
+// Display the updated blockchain
+console.log(JSON.stringify(blockchain, null, 4));
+
