@@ -2,7 +2,7 @@
 
 # Basic Blockchain Implementation in JavaScript
 
-This project is a basic implementation of a blockchain written in JavaScript. It includes functionalities for creating blocks, mining them, and handling transactions.
+This project is a basic implementation of a single node blockchain written in JavaScript. It includes functionalities for creating blocks, mining them, and handling transactions.
 
 ## Features
 
